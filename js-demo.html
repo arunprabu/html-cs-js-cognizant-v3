@@ -43,11 +43,51 @@
       <!-- <button onclick="alert('Clicked')">Learn JS</button> -->
 
       <!-- onclick is an event | handleClick is an event handler fn -->
-      <button onclick="handleClick()">Learn JS</button>
+      <button onclick="handleClick(event)">
+        Learn JS
+      </button>
 
+      <button onclick="handleClick(event)">Click Me</button>
+
+      <h2>HTML 5 JS API</h2>
+      <h3>Storage | LocalStorage and SessionStorage </h3>
+      <input type="text" id="pincodeInput" name="pincode" placeholder="Enter Pincode">
+      <button type="button" id="savePincodeBtn">Save Pincode</button>
+      <div id="savedPincodes">
+        <!--TODO: Display the saved pincode here -->
+      </div>
+      <!-- TODO: Experiment with sessionStorage later -->
+
+      <hr />
+      <h3>Geolocation API Demo</h3>
+      <button type="button" id="locateMeBtn">Locate Me</button>
+      <div id="locationBox">
+      </div>
+
+      <hr/>
+      <!-- TODO: Experiment with Drag and Drop  -->
+      <h3>TODO: Experiment with Drag and Drop </h3>
+
+      <h3>Custom Components</h3>
+      <div>
+        <popup-info 
+        img="./assets/images/social_twitter.png" 
+        data-text="Twitter is a microblogging and 
+        social networking service owned by American company 
+        Twitter, Inc.,"></popup-info></label>
+        
+        <popup-info 
+        img="./assets/images/linkedin_social_icon.png" 
+        data-text="LinkedIn is an American business and 
+        employment-oriented service that operates
+         via websites and mobile apps. 
+         Founded on December 28, 2002"></popup-info></label>
+
+      </div>
 
 
     </main>
+
 
     <footer>
       <hr>
@@ -84,6 +124,7 @@
 
     <!-- External JS is recommended -->
     <script src="./assets/scripts/main.js"></script>
+
 
 
   </body>

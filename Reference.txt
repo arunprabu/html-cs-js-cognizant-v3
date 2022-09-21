@@ -76,6 +76,11 @@ kebab-case
 snake_case
 --
   NEVER USE 
+  for constants such as MAX_CLASSES_PER_STUDENT
+
+Read more: https://google.github.io/styleguide/jsguide.html
+And also: https://www.freecodecamp.org/news/clean-coding-for-beginners/
+
 
 CSS 
 --
@@ -257,19 +262,33 @@ Types of Languages
         myName =  []; // valid 
         myName =  {}; // valid 
         myName =  function() {}; // valid 
-      
+  
 
-  ---
-Variables 
-Variable Hoisting 
-var, let, const 
+Wednesday
+--
 
-Functions 
-  1. Named Fn 
+Custom Elements
 
-  2. Anonymous
-  3. IIFE  
 
-  function hoisting 
 
+Thursday
+-
+NodeJs Introduction (1.5 hour)
+SASS and LESS (1.25 hours)
+Accessibility (0.25 hours)
+---
+
+
+
+
+
+
+
+
+
+
+
+Notes:
+--
+  Nayeemuddin has attended the third session today 
 
