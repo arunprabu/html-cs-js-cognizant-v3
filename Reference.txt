@@ -267,16 +267,25 @@ Types of Languages
 Wednesday
 --
 
-Custom Elements
+Webcomponents 
+  Custom Elements
+  Learn from here: https://developer.mozilla.org/en-US/docs/Web/Web_Components
+    1. Autonomous Custom Elements 
+        the class should extend 'HTMLElement' 
 
+        can be used like the following 
+        <popup-info>
 
+    2. Customized built-in Elements 
+        the class can extend anything like 
+          HTMLButtonElement 
+            <button is="login-button">
 
-Thursday
--
-NodeJs Introduction (1.5 hour)
-SASS and LESS (1.25 hours)
-Accessibility (0.25 hours)
----
+          HTMLDivElement 
+            <div is="info-div">
+          For more: https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API
+          More Custom Components Examples: https://github.com/mdn/web-components-examples
+
 
 
 
